@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843CD6AD29B2A32200CA3E50 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CD6AC29B2A32200CA3E50 /* PersonsListViewController.swift */; };
 		84BD677429B27F3C00F355DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD677329B27F3C00F355DD /* AppDelegate.swift */; };
 		84BD677629B27F3C00F355DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD677529B27F3C00F355DD /* SceneDelegate.swift */; };
-		84BD677829B27F3C00F355DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD677729B27F3C00F355DD /* ViewController.swift */; };
 		84BD677B29B27F3D00F355DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD677929B27F3D00F355DD /* Main.storyboard */; };
 		84BD677D29B27F3F00F355DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BD677C29B27F3F00F355DD /* Assets.xcassets */; };
 		84BD678029B27F3F00F355DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD677E29B27F3F00F355DD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843CD6AC29B2A32200CA3E50 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		84BD677029B27F3C00F355DD /* PersonsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BD677329B27F3C00F355DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BD677529B27F3C00F355DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84BD677729B27F3C00F355DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84BD677A29B27F3D00F355DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84BD677C29B27F3F00F355DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BD677F29B27F3F00F355DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				84BD677329B27F3C00F355DD /* AppDelegate.swift */,
 				84BD677529B27F3C00F355DD /* SceneDelegate.swift */,
-				84BD677729B27F3C00F355DD /* ViewController.swift */,
+				843CD6AC29B2A32200CA3E50 /* PersonsListViewController.swift */,
 				84BD677929B27F3D00F355DD /* Main.storyboard */,
 				84BD677C29B27F3F00F355DD /* Assets.xcassets */,
 				84BD677E29B27F3F00F355DD /* LaunchScreen.storyboard */,
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BD677829B27F3C00F355DD /* ViewController.swift in Sources */,
 				84BD677429B27F3C00F355DD /* AppDelegate.swift in Sources */,
+				843CD6AD29B2A32200CA3E50 /* PersonsListViewController.swift in Sources */,
 				84BD677629B27F3C00F355DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,9 +301,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.aigizusmanov.PersonsList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,9 +331,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.aigizusmanov.PersonsList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
